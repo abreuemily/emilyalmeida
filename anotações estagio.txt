@@ -14,6 +14,7 @@ dia 3 - 20\01
 8:30 - 12:30 --> daily, aulas
 colocar uma imagem e link no repo e mandar pro monitor
 git add--> adiciona arquivos no repo. deve-se fazer sempre para não perder arquivos.
+git add . --> adiciona todos os arquivos novos e modificações sem ter que especificar arquivos
 push --> comando que envia
 comitar --> enviar pro repo
 git status --> comando que faz a leitura do repositório e emite um relatório, dizendo se tem algum arquivo que ainda não foi enviado para o repo, ou se alguma modificação de arquivo ainda não foi enviada, por exemplo.
@@ -22,8 +23,11 @@ git commit --> envia as mudanças do arquivo
 -m "" --> adiciona um comentário no arquivo
 git commit -a -m "" --> adiciona as mudanças + adiciona uma mensagem no grupo de arquivos comitados
 git push --> envia os arquivos para o servidor, deve-se sempre fazer
-
-
-
-
+git pull --> trás os arquivos do servidor para o pc
+git rm --> retirar o arquqivo do git. Depois ttem qque ddar o git pull praa transmitir pro servidor
+git clone --> clona o repo. 
+git  log  --> mostra  todas  as  alterações que e o repo sofreeu. Pode deixar o tterminaal travado, daí tem que dar um ctrl+c ou ctrl+q
+git mv --> muda nome de arquivo ou muda arquivo de pasta
+git checkout (nome do arquivo) -->volta para o estado original, como ela está no servidor  
+.gitignore --> usado para o git ignorar arquivos
 
