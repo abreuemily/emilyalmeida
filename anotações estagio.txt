@@ -1,0 +1,29 @@
+Dia 1 - 18\01
+9:30 - 12:30 --> reuniões
+
+Dia 2 - 19\01
+8:30 - 12:30 --> daily, aulas (até a 18)
+Branch --> versão
+Controle de versão --> etapa de segurança do código-fonte, ajuda a gerenciar
+git --> sistema de controle de versão, baseado em repositórios. Todos os brants devem ir para o repositório e ficar disponível pra download pra outras pessoas. É protegido com criptografia, tem código aberto, é diferente de github. 
+É melhor não usar softwares visuais pra usar o git (interface gráfica) porque lá na empresa não vai ter isso não 
+repositório --> onde o código será armazenado (abreviação é 'repo'). Os dois mais usados são github e bitbucket.
+como criar um repo --> usa-se o comando 'git init'. depois  de dar esse comando, o programa começa  a reconhecer um projeto. Fica  tudo guardado na pasta  oculta .git.
+
+dia 3 - 20\01
+8:30 - 12:30 --> daily, aulas
+colocar uma imagem e link no repo e mandar pro monitor
+git add--> adiciona arquivos no repo. deve-se fazer sempre para não perder arquivos.
+push --> comando que envia
+comitar --> enviar pro repo
+git status --> comando que faz a leitura do repositório e emite um relatório, dizendo se tem algum arquivo que ainda não foi enviado para o repo, ou se alguma modificação de arquivo ainda não foi enviada, por exemplo.
+untracked (traquear)--> arquivo não enviado ao repo
+git commit --> envia as mudanças do arquivo
+-m "" --> adiciona um comentário no arquivo
+git commit -a -m "" --> adiciona as mudanças + adiciona uma mensagem no grupo de arquivos comitados
+git push --> envia os arquivos para o servidor, deve-se sempre fazer
+
+
+
+
+
