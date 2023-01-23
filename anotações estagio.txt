@@ -11,7 +11,7 @@ repositório --> onde o código será armazenado (abreviação é 'repo'). Os do
 como criar um repo --> usa-se o comando 'git init'. depois  de dar esse comando, o programa começa  a reconhecer um projeto. Fica  tudo guardado na pasta  oculta .git.
 
 dia 3 - 20\01
-8:30 - 12:30 --> daily, aulas
+8:30 - 12:30 --> daily, aulas (até a 36)
 colocar uma imagem e link no repo e mandar pro monitor
 git add--> adiciona arquivos no repo. deve-se fazer sempre para não perder arquivos.
 git add . --> adiciona todos os arquivos novos e modificações sem ter que especificar arquivos
@@ -30,4 +30,64 @@ git  log  --> mostra  todas  as  alterações que e o repo sofreeu. Pode deixar 
 git mv --> muda nome de arquivo ou muda arquivo de pasta
 git checkout (nome do arquivo) -->volta para o estado original, como ela está no servidor  
 .gitignore --> usado para o git ignorar arquivos
+git reset --hard --> apaga alterações feitas no branch. Usar com cuidado.
+branch --> ramificações do projeto. a forma como separamos as versões do projeto. cada desenvolvedor do projeto terá a sua. após as alterações, são unidos para ter o código fonte final.
+git branch --> mostra qual branch a pessoa está atualmente
+git branch (nome) --> ramifica o branch principal
+git branch -d (nome do branch) ou git branch --delete (nome do branch)--> deleta um branch
+
+Dia 4 - 23\01 
+08:33 - 12:30 --> daily, aulas (até a 68)
+git checkout -b (nome do branch) --> cria um novo branch sem ser a partir da master
+git checkout (nome do branch) --> muda de branch
+git  merge (nome do branch)  --> une o branch atual a outra indicada. Cuidado para não fazer isso estando na branch master.
+Atividades citadas na daily: mark down, fazer um repositorio privado e dar acesso ao monitor
+git stash --> se ainda não estiver comitado, joga as alterações numa lixeira, descarta as alterações, mas dá pra recuperar depois.
+git stash list --> mostra todas as alteraçoes que o user deu stash e atribui um número a elas
+git stash apply (número da stash) --> restalra a stash indicada
+git stash show -p (número da stash) --> mostra as alterações de determinada stash
+git stash clear --> elimina todas as stashes
+git stash drop (número da stash) --> elimina uma stash especifica
+git tag -a (nome) -m "" --> cria tipo um check point de desenvolvimentos 
+git checkout (nome da tag) --> muda de check point
+git show (nome da tag) --> mostra todas as alterações de determinada tag
+git tag --> mostra a lista de todas as tags (check points)
+Tags podem ser enviadas ao repositório
+git push origin (nome da tag) --> envia determinado check point (tag) para o repositório
+git push origin --tags --> envia ao repositório todos os check points (tags) 
+git fetch --> um branch está no repo e não tenho acesso a ele. Dá-se o comando e teremos acesso.
+git pull --> atualiza o branch atual em relação ao repo principal remoto
+git submodule -> git submodule add (link do novo repo) --> adciona um subrepositório ao repo principal
+git push --recurse-submodules=on-demand --> atualisa somente o subrepositório remoto
+git show --> simplesmente mostra informações do branch atual
+git show (nome da tag) --> mostra as informações da tag (check point)
+git diff --> exibe as diferenças entre dois branches ou entre o branch atual e o repo remoto
+git diff (nome do branch) --> exibe as diferenças entre o branch atual e outro indicado
+git diff HEAD:(nome do arquivo) (nome do arquivo) --> exibe as diferenças entre dois arquivos: um que está no branch atual e o mesmo que está no repo principal
+git shortlog --> faz um resumo detalhado de tudo que já aconteceu no projeto, todas as alterações
+git clean --> limpa arquivos que não foram traqueados. Geralmente são aqueles criados automaticamente pelo sistema. Cuidado para não limpar arquivos necessarios.
+-f --> força o git a fazer algo. Vem de 'force' (forçar em inglês)
+git gc --> 'garbage collector' o git elimina arquivos que ele julga desnecessarios, deixando o repo mais leve.
+git fsck --> checa se existem arquivos corrompidos
+git reflog --> faz um mapeamento hiperdetalhado de tudo que foi feito no projeto. Tem duração de 30 dias.
+git archive --format zip --output master_files.zip master (ou main, slá) --> esse comando transforma o repo num arquivo zip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
