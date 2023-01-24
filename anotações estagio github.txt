@@ -72,7 +72,10 @@ git fsck --> checa se existem arquivos corrompidos
 git reflog --> faz um mapeamento hiperdetalhado de tudo que foi feito no projeto. Tem duração de 30 dias.
 git archive --format zip --output master_files.zip master (ou main, slá) --> esse comando transforma o repo num arquivo zip
 
-
+Dia 5 - 24\01 
+8:30 - 12:30 --> daily, aulas (completei o curso de git e github)
+Markdown --> espécie de linguagem interpretada pelo github. A principal função é criar uma boa interface, melhora a experiencia do user somente.
+Cabeçalhos --> deteminados pelo  
 
 
 
